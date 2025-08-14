@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-  // Objeto para guardar os dados de cada seção (imagens e textos)
   const contentData = {
     default: {
 
@@ -20,7 +19,6 @@ $(document).ready(function() {
     }
   };
 
-  // Função para resetar o menu para o estado inicial
   function resetMenu() {
     $('.info-box').removeClass('active');
     $('.menu-link').removeClass('active-link');
@@ -68,3 +66,4 @@ $(document).ready(function() {
   });
 
 });
+
